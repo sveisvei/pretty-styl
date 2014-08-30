@@ -1,14 +1,8 @@
 #pretty-styl
 
-pretty-styl is a simple coding style formatter for [stylus](http://learnboost.github.io/stylus/). You can easily write your own configuration to make your style sheets beautiful and consistent.
+pretty-styl is a simple coding style formatter for [stylus](http://learnboost.github.io/stylus/). You can easily make your style sheets beautiful and consistent.
 
 ## 1. Install
-
-Global installation (for use as a command-line tool):
-
-```bash
-npm install pretty-styl -g
-```
 
 Local installation (for use as a command-line tool within current directory):
 
@@ -32,8 +26,10 @@ npm install pretty-styl --save-dev
 
 ### Command Line
 
+If you installed the package locally, use local bin file instead:
+
 ```bash
-pretty-styl --path assets/css
+./node_modules/bin/pretty-styl --path assets/css
 ```
 
 ### [Node.js module](doc/usage-node.md)

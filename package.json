@@ -1,13 +1,27 @@
 {
   "name": "pretty-styl",
-  "version": "0.0.1",
-  "description": "Simple csscomb for stylus",
-  "repository": "https://github.com/alt-j/pretty-styl.git",
+  "version": "0.0.5",
+  "description": "Simple coding style formatter for stylus",
+  "keywords": ["csscomb", "stylus"],
+  "author": "Morozov Andrew <alt-j@yandex-team.ru>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alt-j/pretty-styl.git"
+  },
   "dependencies": {
     "gonzales-pe": "3.0.0-10",
     "csscomb": "3.0.1",
     "vow-fs": "0.3.2",
-    "commander": "2.3.0",
-    "vow": "0.4.5"
+    "vow": "0.4.5",
+    "commander": "2.3.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/alt-j/pretty-styl/blob/master/LICENSE"
+    }
+  ],
+  "bin": {
+    "pretty-styl": "bin/pretty-styl"
   }
 }
