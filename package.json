@@ -9,8 +9,8 @@
     "url": "https://github.com/alt-j/pretty-styl.git"
   },
   "dependencies": {
-    "gonzales-pe": "3.0.0-10",
-    "csscomb": "3.0.1",
+    "gonzales-pe": "3.0.0-26",
+    "csscomb": "3.0.4",
     "vow-fs": "0.3.2",
     "vow": "0.4.5",
     "commander": "2.3.0"
@@ -23,5 +23,6 @@
   ],
   "bin": {
     "pretty-styl": "bin/pretty-styl"
-  }
+  },
+  "main": "lib/pretty-styl.js"
 }
